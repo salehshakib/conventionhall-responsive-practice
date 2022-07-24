@@ -47,6 +47,7 @@ nav .nav-items {
     font-size: 16px;
     margin: 0 100px;
     padding: 0 50px;
+    margin-bottom: 10px;
 }
 
 #img-slider .btn-primary {
@@ -59,6 +60,47 @@ nav .nav-items {
 }
 
 /* header section end */
+
+/* main section start */
+
+/* album section */
+
+.album-section h1{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+.album-section p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.explore-btn{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF !important;
+    /* background: #3F87F5; */
+    background-color: #3F87F5 !important;
+    border-radius: 0 !important;
+    padding: 10px 24px;
+}
+
+.my-toast{
+    position: absolute;
+    border-style: none !important;
+    left: 70% !important;
+    border-left: 10px solid #3F87F5 !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    
+}
+
+.gift-icon{
+    font-size: 23px;
+    color: rgba(0, 124, 255, 0.63);
+}
+
 
 @media screen and (max-width: 576px) {
     .carousel-inner img {
@@ -78,4 +120,17 @@ nav .nav-items {
         padding: 0;
         margin-bottom: 10px;
     }
+
+    .album-section h1{
+        font-size: 19px; 
+    }
+
+    .album-section p{  
+        font-size: 15px;
+    }
+
+    .my-toast{
+        left: 15% !important;
+    }
 }
+
