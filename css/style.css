@@ -103,6 +103,13 @@ nav .nav-items {
 
 
 @media screen and (max-width: 576px) {
+    nav .navbar-brand {
+        font-size: 14px;
+    }
+    nav .nav-items {
+        font-size: 14px;
+    }
+
     .carousel-inner img {
         width: auto;
         position: relative;
