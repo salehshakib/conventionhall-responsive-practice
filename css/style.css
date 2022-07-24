@@ -94,6 +94,7 @@ nav .nav-items {
     border-radius: 0 !important;
     font-size: 14px !important;
     
+    
 }
 
 .gift-icon{
@@ -111,9 +112,8 @@ nav .nav-items {
     }
 
     .carousel-inner img {
-        width: auto;
-        position: relative;
-        left: -80%;
+        height: 80vh;
+        object-fit: cover;
     }
 
     .carousel-inner h5 {
