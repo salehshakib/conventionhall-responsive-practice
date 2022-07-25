@@ -89,7 +89,6 @@ nav .nav-items {
 .my-toast{
     position: absolute;
     border-style: none !important;
-    /* left: 70% !important; */
     border-left: 10px solid #3F87F5 !important;
     border-radius: 0 !important;
     font-size: 14px !important;
@@ -136,8 +135,7 @@ nav .nav-items {
         font-size: 15px;
     }
 
-    .my-toast{
-        /* left: 2% !important; */
-    }
+
+
 }
 
